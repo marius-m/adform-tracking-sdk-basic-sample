@@ -9,8 +9,7 @@ to follow [documentation](https://github.com/adform/adform-tracking-android-sdk)
 -   After integration, to check if events are being sent, open logcat to check events like in screenshot
 -   Events are not sent instantly, so it may take a couple of minutes to see events
 
-[logs1](docs_imgs/screen1.png) 
-
+![logs1](docs_imgs/screen1.png) 
 
 # Resources
 
