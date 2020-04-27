@@ -15,8 +15,8 @@ repositories {
     jcenter()
     mavenCentral()
     maven { url "https://maven.google.com/" }
-//    maven { url "https://github.com/adform/adform-tracking-android-sdk/raw/master/releases/" }
-    flatDir { dirs "libs" }
+//    flatDir { dirs "libs" } // Local repository
+    maven { url "https://github.com/adform/adform-tracking-android-sdk/raw/master/releases/" }
 }
 
 apply plugin: 'com.android.application'
@@ -52,8 +52,8 @@ android {
 }
 
 dependencies {
-//    implementation "com.adform.tracking.sdk:adform-tracking-sdk:2.0.0@aar"
-    implementation(name:'AdformTrackingSdk-dev-debug', ext:'aar')
+//    implementation(name:'AdformTrackingSdk-dev-debug', ext:'aar') // Local library
+    implementation "com.adform.tracking.sdk:adform-tracking-sdk:2.0.0@aar"
     implementation "com.android.support:support-annotations:28.0.0"
     implementation "com.android.support:appcompat-v7:28.0.0"
     implementation "com.google.android.gms:play-services-ads:19.1.0"
