@@ -2,9 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.adform.trackingsdk.simpleapp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-
     <application
         android:name="com.adform.trackingsdk.DemoApp"
         android:icon="@drawable/ic_launcher"

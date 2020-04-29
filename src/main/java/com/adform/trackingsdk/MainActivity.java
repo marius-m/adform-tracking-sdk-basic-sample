@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
                 order.addNumericValue(3, 45.4); //Set index (1 or 2) of numeric system variable and value (numeric format)
 
                 final TrackPoint trackPoint = new TrackPoint(Constants.TRACK_POINT_ID);
-                trackPoint.setSectionName("valid_section_name");
+                trackPoint.setSectionName("custom-demo-Ri5wq7#$Vmpt");
                 trackPoint.setOrder(order);
 
                 AdformTrackingSdk.sendTrackPoint(trackPoint);
